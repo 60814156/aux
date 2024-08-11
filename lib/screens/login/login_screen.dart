@@ -14,7 +14,7 @@ class LoginScreen extends StatelessWidget {
     return Scaffold(
         drawer: const SideBar(),
         appBar: AppBar(
-          title: const Text('iniciando mi app'),
+          title: const Text('REGISTRATE'),
         ),
         body: AuthBackground(
             child: SingleChildScrollView(
