@@ -14,7 +14,7 @@ class LoginScreen extends StatelessWidget {
     return Scaffold(
         drawer: const SideBar(),
         appBar: AppBar(
-          title: const Text('MENU DE INICIo'),
+          title: const Text('iniciando mi app'),
         ),
         body: AuthBackground(
             child: SingleChildScrollView(
@@ -28,7 +28,6 @@ class LoginScreen extends StatelessWidget {
                     Text('Inicia tu cuenta',
                         style: Theme.of(context).textTheme.headlineMedium),
                     const SizedBox(height: 20),
-                   
                     ChangeNotifierProvider(
                         create: (_) => loginfromprovider(), child: _LoginForm())
                   ],
