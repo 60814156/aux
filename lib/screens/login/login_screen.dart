@@ -14,7 +14,7 @@ class LoginScreen extends StatelessWidget {
     return Scaffold(
         drawer: const SideBar(),
         appBar: AppBar(
-          title: const Text('MENU DE INICIo'),
+          title: const Text('MENUSIT'),
         ),
         body: AuthBackground(
             child: SingleChildScrollView(
